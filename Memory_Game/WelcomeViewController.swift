@@ -11,7 +11,7 @@ class WelcomeViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    
+    //niv naory the king
     @IBAction func ClickViewTopTen(_ sender: Any) {
         self.performSegue(withIdentifier: "TopTen", sender: self)
         
